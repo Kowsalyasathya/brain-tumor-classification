@@ -1,0 +1,18 @@
+# Ignore dataset
+Dataset/
+
+# Ignore trained models
+models/*.keras
+models/*.h5
+
+# Ignore uploads & generated files
+static/uploads/
+static/gradcam/
+static/reports/
+
+# Ignore notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
